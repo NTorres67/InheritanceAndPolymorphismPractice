@@ -11,6 +11,21 @@ namespace InheritanceAndPolymorphismPractice
         static void Main(string[] args)
         {
 
+            // To call methods and Properties of a class in the Program calss,
+            // yu have to create (instantiate) an object from the class.
+
+
+            // =================================================
+
+            Wizard wizardOne = new Wizard(true);
+
+            HogwartsStudent longbottom = new HogwartsStudent(7);
+
+            DeathEater malfoy = new DeathEater();
+
+            wizardOne.MakeMagic();
+            longbottom.MakeMagic();
+            malfoy.MakeMagic();
 
 
         }
