@@ -10,9 +10,29 @@ namespace InheritanceAndPolymorphismPractice
     {
         static void Main(string[] args)
         {
-
             // To call methods and Properties of a class in the Program calss,
             // yu have to create (instantiate) an object from the class.
+
+
+            // ================================ Membership ===============================
+
+
+            Standard gymMember1 = new Standard(100); // "100" is the cost of the membership
+            VIP gymMember2 = new VIP();
+
+            gymMember1.Activate();
+            gymMember2.Activate();
+
+
+
+
+
+
+
+
+
+
+
 
 
             // =========================================== Wizard =================
@@ -26,8 +46,7 @@ namespace InheritanceAndPolymorphismPractice
             //wizardOne.MakeMagic();
             //longbottom.MakeMagic();
             //malfoy.MakeMagic();
-
-            // =================================== Membership ==================
+            
         }
     }
 }

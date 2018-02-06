@@ -31,10 +31,10 @@ namespace InheritanceAndPolymorphismPractice
 
 
         // Methods
-        public override void Activate()
+        public override void Activate() // not accessing the base method, using same method with different parameters
         {
             //base.Activate(); ==> automatically populates (does everything in base method  **delete out**
-            if (IsActive == false) // copied from base method - capitalize the "i"
+            if (IsActive == false) // when not delcared, automatically set to "false" ** copied from base method - capitalize the "i"
             {
                 IsActive = true;
                 Console.WriteLine("Your standard membership has been activated."); // added "standard"
