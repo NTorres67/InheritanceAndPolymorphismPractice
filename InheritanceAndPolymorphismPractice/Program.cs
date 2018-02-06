@@ -15,19 +15,19 @@ namespace InheritanceAndPolymorphismPractice
             // yu have to create (instantiate) an object from the class.
 
 
-            // =================================================
+            // =========================================== Wizard =================
 
-            Wizard wizardOne = new Wizard(true);
+            //Wizard wizardOne = new Wizard(true);
 
-            HogwartsStudent longbottom = new HogwartsStudent(7);
+            //HogwartsStudent longbottom = new HogwartsStudent(7);
 
-            DeathEater malfoy = new DeathEater();
+            //DeathEater malfoy = new DeathEater();
 
-            wizardOne.MakeMagic();
-            longbottom.MakeMagic();
-            malfoy.MakeMagic();
+            //wizardOne.MakeMagic();
+            //longbottom.MakeMagic();
+            //malfoy.MakeMagic();
 
-
+            // =================================== Membership ==================
         }
     }
 }
